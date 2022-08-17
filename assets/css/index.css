@@ -50,7 +50,8 @@ body {
     margin-top: 13px;
     margin-bottom: 25px;
     backface-visibility: hidden;
-    margin-right: -48px;
+    margin-left: 50px;
+    margin-right: -50px;
     position: relative;
     left: 125px;
 }
@@ -70,9 +71,12 @@ body {
 }
 
 .eyeBall {
-    position: absolute;
-    top: 200px;
+    position: relative;
+    top: 135px;
+    right: 298px;
     opacity: 0;
+    width: 48px;
+    height: 48px;
 }
 
 .name {
