@@ -31,17 +31,59 @@ body {
     padding: 12px;
 }
 
+.onHover {
+    width: 300px;
+
+}
+
+.onHover:hover .eyeView {
+    opacity: .3;
+    transition: .6s ease;
+}
+
+.onHover:hover .eyeBall {
+    opacity: 1;
+}
+
 .previewImg {
     width: 300px;
     margin-top: 13px;
-    /* margin-left: 25px; */
     margin-bottom: 25px;
+    backface-visibility: hidden;
+    margin-right: -48px;
+    position: relative;
+    left: 125px;
+}
+
+.previewImg:hover {
+    cursor: pointer;
+}
+
+.eyeView {
+    position: relative;
+    opacity: 0;
+    top: 13px;
+    right: 125px;
+    background-color: var(--cyan);
+    min-width: 300px;
+    height: 300px;
+}
+
+.eyeBall {
+    position: absolute;
+    top: 200px;
+    opacity: 0;
 }
 
 .name {
     color: var(--white);
     font-size: 24px;
     font-weight: 600;
+}
+
+.name:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }
 
 .desc {
@@ -98,6 +140,11 @@ hr {
 .authorTxt {
     color: var(--white);
     margin: 0;
+}
+
+.authorTxt:hover {
+    cursor: pointer;
+    color: var(--cyan);
 }
 
 .authorTxtColor {
