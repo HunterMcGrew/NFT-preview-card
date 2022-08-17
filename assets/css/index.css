@@ -1,0 +1,118 @@
+/* begin of my code */
+:root {
+    --softBlue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --mainBG: hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--mainBG);
+    overflow: hidden;
+}
+
+.myContainer {
+    margin: 0 auto;
+    background-color: var(--cardBG);
+    width: 350px;
+}
+
+.innerContainer {
+    width: 325px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.previewImg {
+    width: 300px;
+    margin-top: 13px;
+    /* margin-left: 25px; */
+    margin-bottom: 25px;
+}
+
+.name {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.desc {
+    color: var(--softBlue);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.detailsDiv {
+    margin-bottom: 15px;
+}
+
+.icon {
+    width: auto;
+    height: 20px;
+}
+
+.value {
+    color: var(--cyan);
+    font-weight: 600;
+    margin-top: 8px;
+    margin: 0;
+}
+
+.clockImg {
+    width: auto;
+    height: 20px;
+}
+
+.timeLeft {
+    color: var(--softBlue);
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+hr {
+    color: var(--softBlue);
+    width: 90%;
+    height: 1px;
+    margin: 10px auto;
+    padding: 3px;
+}
+
+.avatarDiv {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.avatar {
+    width: 35px;
+    border: 1px solid white;
+}
+
+.authorTxt {
+    color: var(--white);
+    margin: 0;
+}
+
+.authorTxtColor {
+    color: var(--softBlue);
+}
+
+
+/* code that came with challenge */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
