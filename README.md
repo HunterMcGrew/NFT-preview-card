@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/nft-preview-card-f9e0O8Xywn)
 - Live Site URL: [Live Link](https://huntermcgrew.github.io/NFT-preview-card/)
 
 ## My process
