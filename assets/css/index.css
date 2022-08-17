@@ -38,7 +38,7 @@ body {
 
 .onHover:hover .eyeView {
     opacity: .3;
-    transition: .6s ease;
+    transition: .3s;
     cursor: pointer;
 }
 
