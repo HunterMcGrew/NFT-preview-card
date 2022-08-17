@@ -39,6 +39,7 @@ body {
 .onHover:hover .eyeView {
     opacity: .3;
     transition: .6s ease;
+    cursor: pointer;
 }
 
 .onHover:hover .eyeBall {
@@ -54,10 +55,6 @@ body {
     margin-right: -50px;
     position: relative;
     left: 125px;
-}
-
-.previewImg:hover {
-    cursor: pointer;
 }
 
 .eyeView {
